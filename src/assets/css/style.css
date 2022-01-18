@@ -1,0 +1,196 @@
+body {
+  background-color: #0b0c1b;
+}
+header {
+  z-index: 2;
+}
+.footer,
+.navbar {
+  position: relative;
+  background-color: rgba(22, 23, 39, 0.8);
+}
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+.flag {
+  width: 30px;
+  height: 30px;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.brand > a {
+  font-family: "Raleway", sans-serif;
+  color: #cecbcb;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 90%;
+  background-color: #f0fff0;
+  z-index: 1;
+}
+.sub-menu-item {
+  text-align: start;
+  color: #0b0c1b;
+  padding: 15px;
+}
+.sub-menu-item:hover {
+  background-color: #00aeff;
+  color: #fff;
+}
+.service-menu:hover,
+.service-menu:hover > .sub-menu {
+  display: block;
+}
+.welcome-text > h1 {
+  color: #dad8d8;
+}
+.welcome-text > h4 {
+  color: #525050;
+}
+.welcome-image {
+  opacity: 0.9;
+}
+.section-title {
+  color: #7fffd4;
+}
+.footer-link > a,
+.footer-text,
+.text-about > p,
+p {
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #b3b3b3;
+}
+.footer-link {
+  color: #b3b3b3;
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+.service {
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.bg-sep,
+.service {
+  background-color: #010125;
+}
+.tech-container > img {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 500px) {
+  .footer-link,
+  .footer-text {
+    text-align: center;
+  }
+}
+.description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  color: #0b0c1b;
+}
+.icon-contact {
+  width: 30px;
+  height: 30px;
+}
+.input-contact {
+  border: 0;
+  border-bottom: 1px solid #b3b3b3;
+}
+.input-contact,
+.text-contact {
+  background-color: transparent;
+  outline: none;
+  caret-color: #fff;
+}
+.text-contact {
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  height: 200px;
+}
+.step {
+  height: 300px;
+  border: 0;
+}
+.step-1 {
+  border-top: 5px solid #045bfd;
+  border-right: 5px solid #045bfd;
+}
+.step-2 {
+  border-top: 5px solid #c0f;
+  border-right: 5px solid #c0f;
+}
+.step-3 {
+  border-top: 5px solid #ffe600;
+  border-right: 5px solid #ffe600;
+}
+.step-index {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5px;
+}
+.step-index-1 {
+  background-color: #045bfd;
+}
+.step-index-2 {
+  background-color: #c0f;
+}
+.step-index-3 {
+  background-color: #ffe600;
+}
+@media screen and (min-width: 900px) {
+  .about {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about {
+    height: 300px;
+  }
+}
+.logo {
+  width: 500px;
+  height: 500px;
+}
+.mycard {
+  background-color: rgba(1, 28, 36, 0.5);
+  border-radius: 10px;
+}
+@media screen and (min-width: 900px) {
+  .annot {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .annot {
+    height: 400px;
+  }
+}
+.annot-welcom-container {
+  background-color: rgba(118, 239, 255, 0.5);
+}
+.annot-welcom-container > p {
+  font-size: 4vw;
+  font-family: sans-serif tahoma;
+  color: #1f1e1e;
+}
+.annot-welcom-container > button {
+  padding: 10px;
+  font-family: sans-serif;
+  border: 0;
+  color: #1d1c1c;
+  background-color: #fbff07;
+}
+/*# sourceMappingURL=main.8238462d.chunk.css.map */
