@@ -18,47 +18,47 @@ function Tech(props) {
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div className="d-flex justify-content-evenly tech-container">
-                            <img src="/img/py.png"></img>
-                            <img src="/img/c++.png"></img>
-                            <img src="/img/kotlin.png"></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/py.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/c++.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/kotlin.png`}></img>
                         </div>    
                     </div>
                     <div class="carousel-item">
                         <div className="d-flex justify-content-evenly tech-container">
-                            <img src="/img/html.png"></img>
-                            <img src="/img/css.png"></img>
-                            <img src="/img/js.png"></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/html.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/css.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/js.png`}></img>
                         </div>  
                     </div>
                     <div class="carousel-item">
                         <div className="d-flex justify-content-evenly tech-container">
-                            <img src="/img/react.png"></img>
-                            <img src="/img/vue.png"></img>
-                            <img src="/img/laravel.png"></img>
-                            <img src="/img/angular.png"></img>
-                        </div>  
-                    </div>
-
-                    <div class="carousel-item">
-                        <div className="d-flex justify-content-evenly tech-container">
-                            <img src="/img/win.png"></img>
-                            <img src="/img/android.png"></img>
-                            <img src="/img/linux.png"></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/react.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/vue.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/laravel.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/angular.png`}></img>
                         </div>  
                     </div>
 
                     <div class="carousel-item">
                         <div className="d-flex justify-content-evenly tech-container">
-                            <img src="/img/chrome.png"></img>
-                            <img src="/img/opera.png"></img>
-                            <img src="/img/edge.png"></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/win.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/android.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/linux.png`}></img>
                         </div>  
                     </div>
 
                     <div class="carousel-item">
                         <div className="d-flex justify-content-evenly tech-container">
-                            <img src="/img/mysql.png"></img>
-                            <img src="/img/mongodb.png"></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/chrome.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/opera.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/edge.png`}></img>
+                        </div>  
+                    </div>
+
+                    <div class="carousel-item">
+                        <div className="d-flex justify-content-evenly tech-container">
+                            <img src={`${process.env.PUBLIC_URL}/img/mysql.png`}></img>
+                            <img src={`${process.env.PUBLIC_URL}/img/mongodb.png`}></img>
                         </div>  
                     </div>
                 </div>

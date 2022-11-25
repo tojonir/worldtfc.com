@@ -47,7 +47,7 @@ function About(props) {
             </div>
             <div className="row d-flex justify-content-evenly p-3">
                 <div className="col-md-4 text-center p-3">
-                    <img className="w-75" src="/img/logo.png"></img>
+                    <img className="w-75" src={`${process.env.PUBLIC_URL}/img/logo.png`}></img>
                 </div>
                 <div className="col-md-4 d-flex justify-content-center p-3">  
                     <div className="mycard p-4 d-flex flex-row">

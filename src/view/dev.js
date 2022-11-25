@@ -91,7 +91,7 @@ function Dev(props) {
             <p className="text-center m-4"> {text.content[0]} </p>
             <div className="row d-flex justify-content-evenly m-3 mt-5 bg-sep">
                 <div className="col-md-4 p-5" data-aos="fade-left">
-                    <img className="w-100"  src="/img/web.png"></img>
+                    <img className="w-100"  src={`${process.env.PUBLIC_URL}/img/web.png`}></img>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-left">
                     <p className="text-light h1">{text.title[3]}</p>
@@ -112,14 +112,14 @@ function Dev(props) {
                 </div>
 
                 <div className="col-md-4 p-5" data-aos="fade-right">
-                    <img className="w-100"  src="/img/native.png"></img>
+                    <img className="w-100"  src={`${process.env.PUBLIC_URL}/img/native.png`}></img>
                 </div>
                 
             </div>
 
             <div className="row d-flex justify-content-evenly m-3 mt-5 bg-sep">
                 <div className="col-md-4 p-5" data-aos="fade-left">
-                    <img className="w-100"  src="/img/business.jpg"></img>
+                    <img className="w-100"  src={`${process.env.PUBLIC_URL}/img/business.png`}></img>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-left">
                     <p className="text-light h1">{text.title[5]}</p>

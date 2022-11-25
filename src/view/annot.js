@@ -115,7 +115,7 @@ function Annot(props) {
             </div>
             <div className="row d-flex justify-content-evenly m-3 mt-5 bg-sep">
                 <div className="col-md-4 p-5" data-aos="fade-left">
-                    <img className="w-100"  src="/img/categ.PNG"></img>
+                    <img className="w-100"  src={`${process.env.PUBLIC_URL}/img/categ.PNG`}></img>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-left">
                     <p className="text-light h1">{text.title[4]}</p>
@@ -123,9 +123,9 @@ function Annot(props) {
                     <p>{text.content[4][1]}</p>
                     <p>{text.content[4][2]}</p>
                     <p>supported data
-                        <img className="m-2" src="/icon/image.png" title="image"></img>
-                        <img className="m-2" src="/icon/audio.png" title="audio"></img>
-                        <img className="m-2" src="/icon/video.png" title="video"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/image.png`} title="image"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/audio.png`} title="audio"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/video.png`} title="video"></img>
                     </p>
                 </div>
                 
@@ -139,9 +139,9 @@ function Annot(props) {
                     <p>{text.content[5][1]}</p>
                     <p>{text.content[5][2]}</p>
                     <p>supported data
-                        <img className="m-2" src="/icon/image.png" title="image"></img>
-                        <img className="m-2" src="/icon/audio.png" title="audio"></img>
-                        <img className="m-2" src="/icon/video.png" title="video"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/image.png`} title="image"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/audio.png`} title="audio"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/video.png`} title="video"></img>
                     </p>
                 </div>
 
@@ -153,7 +153,7 @@ function Annot(props) {
 
             <div className="row d-flex justify-content-evenly m-3 mt-5 bg-sep">
                 <div className="col-md-4 p-5" data-aos="fade-left">
-                    <img className="w-100"  src="/img/bounding.png"></img>
+                    <img className="w-100"  src={`${process.env.PUBLIC_URL}/img/bounding.png`}></img>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-left">
                     <p className="text-light h1">2d, 3d box</p>
@@ -161,9 +161,9 @@ function Annot(props) {
                     <p>{text.content[6][1]}</p>
                     <p>{text.content[6][2]}</p>
                     <p>supported data
-                        <img className="m-2" src="/icon/image.png" title="image"></img>
-                        <img className="m-2" src="/icon/audio.png" title="audio"></img>
-                        <img className="m-2" src="/icon/video.png" title="video"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/image.png`} title="image"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/audio.png`} title="audio"></img>
+                        <img className="m-2" src={`${process.env.PUBLIC_URL}/icon/video.png`} title="video"></img>
                     </p>
                 </div>
                 

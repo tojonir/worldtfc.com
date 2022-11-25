@@ -63,9 +63,9 @@ function Contact(props) {
                     <button className="btn btn-sm btn-primary" onClick={()=>sendMail()}>Send</button>
                 </div>
                 <div className="d-flex w-100 justify-content-evenly mt-4">
-                    <a target="blank" href="https://web.facebook.com/World-TFC-100269498787246"><img className="icon-contact" alt="..." src="/icon/fb.png"></img></a>
-                    <a target="blank" href="https://www.linkedin.com/in/world-tfc-262272207/"><img className="icon-contact" alt="..." src="/icon/linkedin.png"></img></a>
-                    <a target="blank" href="https://join.skype.com/invite/DvuDPdWRhER8"><img className="icon-contact" alt="..." src="/icon/skype.png"></img></a>
+                    <a target="blank" href="https://web.facebook.com/World-TFC-100269498787246"><img className="icon-contact" alt="..." src={`${process.env.PUBLIC_URL}/icon/fb.png`}></img></a>
+                    <a target="blank" href="https://www.linkedin.com/in/world-tfc-262272207/"><img className="icon-contact" alt="..." src={`${process.env.PUBLIC_URL}/icon/linkedin.png`}></img></a>
+                    <a target="blank" href="https://join.skype.com/invite/DvuDPdWRhER8"><img className="icon-contact" alt="..." src={`${process.env.PUBLIC_URL}/icon/skype.png`}></img></a>
                 </div>
             </div>
 

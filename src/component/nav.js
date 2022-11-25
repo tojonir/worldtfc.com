@@ -19,10 +19,10 @@ function Nav(props) {
             <div class="container-fluid">
                 <div class="d-flex w-100 justify-content-between">
                         <h3 className="brand">
-                            <a href="/">World TFC</a>
+                            <a href="/worldtfc.com">World TFC</a>
                         </h3>
                         <div class="">
-                            <input type="image" src="../img/hum.png" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"/>
+                            <input type="image" src={`${process.env.PUBLIC_URL}/img/hum.png`} class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"/>
                         </div>
                 </div>
                 
