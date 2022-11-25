@@ -48,10 +48,10 @@ function Nav(props) {
                         </li>
                         
                         <li class="nav-item d-flex align-items-center justify-content-center">
-                            <Link to="/fr/home"><img className="flag" src="/img/fr.png"></img></Link> 
+                            <Link to="/fr/home"><img className="flag" src={`${process.env.PUBLIC_URL}/img/fr.png`}></img></Link> 
                         </li>
                         <li class="nav-item text-center d-flex align-items-center justify-content-center">
-                            <Link to="/en/home"><img className="flag" src="/img/en.png"></img></Link>
+                            <Link to="/en/home"><img className="flag" src={`${process.env.PUBLIC_URL}/img/en.png`}></img></Link>
                         </li>
                     </ul>
                 </div>

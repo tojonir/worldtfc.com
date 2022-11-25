@@ -13,7 +13,7 @@ function App() {
     });
   }, [])
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Route exact path="/">
             <Redirect to="en/home"></Redirect>
