@@ -1,7 +1,7 @@
 {
   "name": "source",
   "version": "0.1.0",
-  "homepage": "https://tojonir.github.io/",
+  "homepage": "https://tojonir.github.io/worldtfc.com",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.6",
