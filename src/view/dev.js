@@ -119,7 +119,7 @@ function Dev(props) {
 
             <div className="row d-flex justify-content-evenly m-3 mt-5 bg-sep">
                 <div className="col-md-4 p-5" data-aos="fade-left">
-                    <img className="w-100"  src={`${process.env.PUBLIC_URL}/img/business.png`}></img>
+                    <img className="w-100"  src={`${process.env.PUBLIC_URL}/img/business.jpg`}></img>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center" data-aos="fade-left">
                     <p className="text-light h1">{text.title[5]}</p>
