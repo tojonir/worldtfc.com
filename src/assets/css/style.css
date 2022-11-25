@@ -31,7 +31,7 @@ a {
 .sub-menu {
   display: none;
   position: absolute;
-  top: 90%;
+  top : 80%;
   background-color: #f0fff0;
   z-index: 1;
 }
