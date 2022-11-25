@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/worldtfc.com/static/css/main.6293c9a0.css",
-    "main.js": "/worldtfc.com/static/js/main.0af58347.js",
-    "static/js/787.7717ef8a.chunk.js": "/worldtfc.com/static/js/787.7717ef8a.chunk.js",
-    "index.html": "/worldtfc.com/index.html",
-    "main.6293c9a0.css.map": "/worldtfc.com/static/css/main.6293c9a0.css.map",
-    "main.0af58347.js.map": "/worldtfc.com/static/js/main.0af58347.js.map",
-    "787.7717ef8a.chunk.js.map": "/worldtfc.com/static/js/787.7717ef8a.chunk.js.map"
+    "main.css": "/static/css/main.6293c9a0.css",
+    "main.js": "/static/js/main.2eebbd91.js",
+    "static/js/787.7717ef8a.chunk.js": "/static/js/787.7717ef8a.chunk.js",
+    "index.html": "/index.html",
+    "main.6293c9a0.css.map": "/static/css/main.6293c9a0.css.map",
+    "main.2eebbd91.js.map": "/static/js/main.2eebbd91.js.map",
+    "787.7717ef8a.chunk.js.map": "/static/js/787.7717ef8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6293c9a0.css",
-    "static/js/main.0af58347.js"
+    "static/js/main.2eebbd91.js"
   ]
 }
