@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/worldtfc.com/static/css/main.45df0432.css",
-    "main.js": "/worldtfc.com/static/js/main.eddd547b.js",
+    "main.js": "/worldtfc.com/static/js/main.51cfcdc2.js",
     "static/js/787.7717ef8a.chunk.js": "/worldtfc.com/static/js/787.7717ef8a.chunk.js",
     "index.html": "/worldtfc.com/index.html",
     "main.45df0432.css.map": "/worldtfc.com/static/css/main.45df0432.css.map",
-    "main.eddd547b.js.map": "/worldtfc.com/static/js/main.eddd547b.js.map",
+    "main.51cfcdc2.js.map": "/worldtfc.com/static/js/main.51cfcdc2.js.map",
     "787.7717ef8a.chunk.js.map": "/worldtfc.com/static/js/787.7717ef8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45df0432.css",
-    "static/js/main.eddd547b.js"
+    "static/js/main.51cfcdc2.js"
   ]
 }
