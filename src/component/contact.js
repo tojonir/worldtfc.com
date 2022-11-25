@@ -40,15 +40,15 @@ function Contact(props) {
         <div id="contact" className="d-sm-flex flex-sm-column d-md-flex flex-md-row justify-content-evenly w-100 mt-5">
             <div className="col-lg-4 p-4">
                 <div>
-                    <p><img src="/icon/location.png" alt="..."></img>
+                    <p><img src={`${process.env.PUBLIC_URL}/icon/location.png`} alt="..."></img>
                     Location:<br/> 10 Bis Anosy Avaratra</p> 
                 </div>
                 <div className="">
-                    <p><img src="/icon/mail.png" alt="..."></img>
+                    <p><img src={`${process.env.PUBLIC_URL}/icon/mail.png`} alt="..."></img>
                     Email:<br/> contact@worldtfc.com</p> 
                 </div>
                 <div>
-                    <p><img src="/icon/phone.png" alt="..."></img>
+                    <p><img src={`${process.env.PUBLIC_URL}/icon/phone.png`} alt="..."></img>
                     Call:<br/> +261 34 09 112 78</p> 
                 </div>
             </div>
